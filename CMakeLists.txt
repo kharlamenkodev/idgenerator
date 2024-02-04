@@ -5,8 +5,7 @@ project(idgenerator
         DESCRIPTION "Bureau 1440 test task"
         LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD 11)
 
 add_library(${PROJECT_NAME} SHARED src/idgenerator.cpp)
 
