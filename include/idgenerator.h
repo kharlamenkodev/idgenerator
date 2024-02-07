@@ -18,7 +18,7 @@ public:
 
     /**
      * @brief Формирует идентификатор, следующий за id (in-place версия)
-     * @param id - ссылка на объект строки вдентификатора
+     * @param id - ссылка на объект строки идентификатора
      */
     void getNextIdInPlace(std::string& id) const;
 

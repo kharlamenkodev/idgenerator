@@ -1,4 +1,4 @@
-#include "../include/idgenerator.h"
+#include "idgenerator.h"
 
 #include <unordered_set>
 
@@ -40,7 +40,7 @@ namespace{
 
         return true;
     }
-};
+}
 
 IdGenerator::IdGenerator()
 {}
